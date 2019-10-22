@@ -1,8 +1,11 @@
 html, body {
-	font-family: 'Scada', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	height: 100%;
 	width: 100%;
 	background-color: black;
+}
+ul {
+	list-style: none;
 }
 img {
 	width: 100%;
@@ -30,8 +33,9 @@ a:hover {
 	display: none;
 }
 .nav-item {
-	font-family: 'Scada', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-size: 18px;
+	font-weight: 600;
 }
 
 /* Landing color block */
@@ -48,7 +52,6 @@ header {
 }
 .header-color {
 	background-color: #f4f4f2 !important;
-	color: white;
 }
 header .header-content {
   position: relative;
@@ -57,13 +60,70 @@ header .header-content {
   width: 100%;
 }
 
+/* Section */
+section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.sub-section {
+	color: black;
+	padding: 15px;
+}
+
+/* Menu */
+.menu-section {
+	background-color: #f4f4f2 !important;
+}
+.menu-header {
+	font-family: 'Vampiro One', cursive;
+	color: #66c48c;
+}
+.menu-header-large {
+	font-family: 'Vampiro One', cursive;
+	color: lightgray;
+	font-size: 2rem;
+	margin-top: 24px;
+	text-transform: uppercase;
+}
+.menu-cat {
+	margin-bottom: 16px;
+	padding-left: 24px;
+}
+.menu-item {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 15px;
+	margin: 0;
+	font-weight: 600;
+}
+.menu-description {
+	font-weight: 400;
+	font-size: 12px;
+	margin-bottom: 3px;
+}
+.cat-description {
+	font-weight: 400;
+	font-size: 12px;
+	color: #66c48c; /*green*/
+	margin-bottom: 8px;
+	margin-top: -8px;
+}
+.menu-price {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 5px;
+}
+.fa-pepper-hot {
+	color: red;
+}
+
 /* Button style */
 .btn-primary {
-	background-color: #66c48c;
+	background-color: #66c48c; /*green*/
 	border-color: #66c48c;
 	color: white;
 	font-size: 15px;
-	font-family: 'Scada', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	margin: 5px;
 }
 .btn-primary:hover {
@@ -78,20 +138,19 @@ header .header-content {
 	text-align: center;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 25px;
-	padding-bottom: 10px;
 }
 .footer-header {
 	font-size: 18px;
+	font-weight: 600;
 }
 .footer-info {
 	font-size: 12px;
-	font-family: sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	margin: 0;
 }
 .footer-info2 {
 	font-size: 12px;
-	font-family: sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-weight: bold;
 	margin-bottom: 5px;
 }
