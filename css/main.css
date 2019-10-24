@@ -81,8 +81,13 @@ section {
 .menu-header-large {
 	font-family: 'Vampiro One', cursive;
 	color: lightgray;
-	font-size: 2rem;
 	margin-top: 24px;
+	text-transform: uppercase;
+}
+.lunch-header-large {
+	font-family: 'Vampiro One', cursive;
+	color: #66c48c;
+	margin-bottom: 24px;
 	text-transform: uppercase;
 }
 .menu-cat {
@@ -116,6 +121,28 @@ section {
 .fa-pepper-hot {
 	color: red;
 }
+.page-title {
+	font-family: 'Vampiro One', cursive;
+	font-size: 2rem;
+	color: black;
+	font-weight: 600;
+	text-align: center;
+}
+.page-header {
+	margin-top: 50px;
+	margin-bottom: 75px;
+}
+.combo-number {
+	color: #66c48c; /*green*/
+}
+.combo-header {
+	margin-top: 16px;
+	color: black;
+	margin-bottom: 3px;
+}
+.combo-column {
+	font-weight: 400;
+}
 
 /* Button style */
 .btn-primary {
@@ -130,6 +157,10 @@ section {
 	background-color: #f4f4f2;
 	border-color: #66c48c;
 	color: #66c48c;
+}
+.btn-pdf {
+	font-size: 12px;
+	margin-top: 16px;
 }
 
 /* Footer */
