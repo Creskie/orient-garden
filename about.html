@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Orient Garden</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- CSS sheet -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vampiro+One&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Hamburger to X animation -->
+    <link href="css/hamburgers.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg fixed-top" role="navigation">
+        <a class="navbar-brand" href="index.html"><img class="logotype" src="images/logotype.png" /></a>
+            <button class="navbar-toggler hamburger hamburger--squeeze" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" type="button" aria-expanded="false">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+
+	    <!-- Hamburger to X animation -->
+	    <script>
+	      var $hamburger = $(".hamburger");
+	      $hamburger.on("click", function(e) {
+	        $hamburger.toggleClass("is-active");
+	      });
+	    </script>
+
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      	<ul class="navbar-nav ml-auto tabs">
+		        <li class="nav-item dropdown">
+		          	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu
+		          		<i class="fas fa-angle-down"></i>
+		          	</a>
+		          	<div class="dropdown-menu" aria-labelledby="dropdownMenu">
+			            <a class="dropdown-item" href="menu/lunch.html">Lunch</a>
+			            <a class="dropdown-item" href="menu/dinner.html">Dinner</a>
+		          	</div>
+		        </li>
+		        <li class="nav-item"><a class="nav-link" href="catering.html">Catering</a></li>
+		        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+	       	</ul>
+	    </div>
+	</nav>
+	
+	<!-- Content goes here -->
+	<section class="menu-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-2 col-md-1 sub-section"></div> <!-- Offset main container to center -->
+				<div class="col-lg-8 col-md-10 col-sm-12 sub-section">
+					<div class="row">
+						<div class="col-4 dragons">
+							<img src="images/dragon-left.png">
+						</div>
+						<div class="col-4 page-header text-center">
+							<h3 class="page-title">About</h3>
+							<p class="page-description">Since 1997, we've been serving classic Chinese-American cuisine. Dine in with us or place an order to take home—good food is always our business!</p>
+						</div>
+						<div class="col-4 dragons">
+							<img src="images/dragon-right.png">
+						</div>
+					</div>
+					<div class="row">
+						<div class="menu-cat col-lg-4 offset-lg-1 col-12 text-center">
+							<h3 class="about-header">Hours of Operation</h3>
+							<div class="about-hours">
+								<p class="weekday">Monday</p>
+								<p class="time">Lunch: 11:00am - 2:30pm</p>
+								<p class="time">Dinner: 4:00pm - 9:30pm</p>
+							</div>
+							<div class="about-hours">
+								<p class="weekday">Tuesday</p>
+								<p class="time">Lunch: 11:00am - 2:30pm</p>
+								<p class="time">Dinner: 4:00pm - 9:30pm</p>
+							</div>
+							<div class="about-hours">
+								<p class="weekday">Wednesday</p>
+								<p class="time">Lunch: 11:00am - 2:30pm</p>
+								<p class="time">Dinner: 4:00pm - 9:30pm</p>
+							</div>
+							<div class="about-hours">
+								<p class="weekday">Thursday</p>
+								<p class="time">Lunch: 11:00am - 2:30pm</p>
+								<p class="time">Dinner: 4:00pm - 9:30pm</p>
+							</div>
+							<div class="about-hours">
+								<p class="weekday">Friday</p>
+								<p class="time">Lunch: 11:00am - 2:30pm</p>
+								<p class="time">Dinner: 3:15pm - 10:00pm</p>
+							</div>
+							<div class="about-hours">
+								<p class="weekday">Saturday</p>
+								<p class="time">Lunch: CLOSED</p>
+								<p class="time">Dinner: 3:15pm - 10:00pm</p>
+							</div>
+							<div class="about-hours">
+								<p class="weekday">Sunday</p>
+								<p class="time">CLOSED</p>
+							</div>
+						</div>
+						<div class="menu-cat col-lg-4 offset-lg-2 col-12 text-center">
+							<h3 class="about-header">Where to Locate Us</h3>
+							<div class="about-hours">
+								<p class="weekday">Address</p>
+								<p class="time"><i class="fas fa-map-marker-alt"></i> 202 NC-54 #401<br>Durham, NC 27713</p>
+							</div>
+							<div class="about-hours">
+								<p class="weekday">Directions</p>
+								<p class="time">On I-40, take exit 276; we are located in the Southpoint Crossing Shopping Center near McDonald's and next to Harris Teeter.</p>
+							</div>
+							<iframe class="map" width="100%" height="300px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwW3PVbDorIkR_t09M6X7NRk&key=AIzaSyAte411s22G7cmKEh_GEstdDL5k8fr7dxg" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section class="footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 footer-section">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 footer-section">
+					<h3 class="footer-header">Contact Us</h3>
+					<p class="footer-info"><i class="fas fa-phone"></i> (919) 806-3333</p>
+					<p class="footer-info"><i class="fas fa-envelope"></i> OrientGardenDurham@gmail.com</p>
+					<br>
+					<h3 class="footer-header">Hours</h3>
+					<div class="hours">
+						<p class="footer-info2">Lunch</p>
+						<p class="footer-info">Mon - Fri: 11:00am - 2:30pm</p>
+					</div>
+					<div class="hours">
+						<p class="footer-info2">Dinner</p>
+						<p class="footer-info">Mon - Thur: 4:00pm - 9:30pm</p>
+						<p class="footer-info">Fri & Sat: 3:15pm - 10:00pm</p>
+						<p class="footer-info">Sunday Closed</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 footer-section">
+					<h3 class="footer-header">Location</h3>
+					<p class="footer-info"><i class="fas fa-map-marker-alt"></i> 202 NC-54 #401<br>Durham, NC 27713</p>
+					<iframe class="map" width="100%" height="200px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwW3PVbDorIkR_t09M6X7NRk&key=AIzaSyAte411s22G7cmKEh_GEstdDL5k8fr7dxg" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</section>		
+
+	<!-- Link to Bootstrap -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>

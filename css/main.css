@@ -19,13 +19,16 @@ a:hover {
 
 /* Logo on landing page */
 .main-logo {
-	max-width: 15%;
-	height: auto;
-	margin: 30px;
+	max-width: 225px;
 }
 .logotype {
-	max-width: 200px;
+	max-width: 150px;
 	height: auto;
+}
+.main-dragons {
+	padding: 10px;
+	opacity: .1;
+	max-width: 200px;
 }
 
 /* Navigation */
@@ -36,6 +39,10 @@ a:hover {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
+}
+.navbar {
+	background-color: #f4f4f2;
+	padding-bottom: 0;
 }
 
 /* Landing color block */
@@ -80,7 +87,7 @@ section {
 }
 .menu-header-large {
 	font-family: 'Vampiro One', cursive;
-	color: lightgray;
+	color: black;
 	margin-top: 24px;
 	text-transform: uppercase;
 }
@@ -143,6 +150,40 @@ section {
 .combo-column {
 	font-weight: 400;
 }
+.dragons {
+	padding-top: 60px;
+	opacity: .1;
+}
+
+/* About page */
+.weekday {
+	font-size: 15px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.time {
+	font-size: 12px;
+	font-family: 'Work Sans', sans-serif;
+	margin: 0;
+}
+.about-hours {
+	margin-bottom: 12px;
+}
+.about-header {
+	font-family: 'Vampiro One', cursive;
+	color: #66c48c;
+	margin-top: 24px;
+}
+.page-description {
+}
+
+/* Catering page */
+.catering-contact {
+	font-size: 18px;
+	font-family: 'Work Sans', sans-serif;
+	margin: 0;
+}
 
 /* Button style */
 .btn-primary {
@@ -161,6 +202,9 @@ section {
 .btn-pdf {
 	font-size: 12px;
 	margin-top: 16px;
+}
+.button-group {
+	margin-top: 50px;
 }
 
 /* Footer */
