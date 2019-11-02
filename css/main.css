@@ -233,7 +233,7 @@ section {
 }
 .hours {
 	margin-bottom: 8px;
-	color: black;
+	color: black !important;
 }
 .map {
 	padding: 8px;
