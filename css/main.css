@@ -16,14 +16,6 @@ a {
 a:hover {
 	color: #66c48c;
 }
-a[x-apple-data-detectors] { /* Disable iOS auto link preview styling for phone #s */
-    color: inherit !important;
-    text-decoration: none !important;
-    font-size: inherit !important;
-    font-family: inherit !important;
-    font-weight: inherit !important;
-    line-height: inherit !important;
-}
 
 /* Logo on landing page */
 .main-logo {
